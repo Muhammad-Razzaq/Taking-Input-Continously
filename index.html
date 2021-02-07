@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taking Input Continously</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Thank You</h1>
+</body>
+<script>
+    let choice = "y"
+    do {
+        let num1 = +prompt("Enter 1st Number : ) ");
+        let num2 = +prompt("Enter 2nd Number : ) ");
+        let sum = parseInt(num1) + parseInt(num2);
+        alert("Your Sum Is : " + sum);
+    } while (choice === prompt("Do You Want Again y/n"));
+</script>
+
+</html>
